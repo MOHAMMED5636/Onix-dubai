@@ -58,6 +58,11 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 18px;
+  justify-items: center;
+}
+
+.brand-grid > :nth-last-child(-n + 2) {
+  justify-self: center;
 }
 
 .brand-card {
@@ -329,7 +334,12 @@ body {
   }
 
   .brand-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .brand-card {
+    min-height: 130px;
   }
 }
 
