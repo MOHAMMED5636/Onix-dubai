@@ -13,46 +13,56 @@ export default function Home() {
           src="/assets/ONIX_GROUP_0002.png"
           alt="ONIX GROUP"
           className="hero__logo"
-          width={260}
-          height={100}
+          width={280}
+          height={110}
           priority
         />
         <div className="brand-grid">
-          <Image
-            src="/assets/ONIX Engineering Consultancy White.webp"
-            alt="ONIX Engineering Consultancy"
-            width={150}
-            height={100}
-            className="brand-logo"
-          />
-          <Image
-            src="/assets/onix-plus-logo.png"
-            alt="ONIX PLUS"
-            width={150}
-            height={100}
-            className="brand-logo"
-          />
-          <Image
-            src="/assets/Onix Prime Logo White[1].webp"
-            alt="ONIX PRIME"
-            width={150}
-            height={100}
-            className="brand-logo"
-          />
-          <Image
-            src="/assets/onix-design-studio-logo.png"
-            alt="ONIX Design Studio"
-            width={150}
-            height={100}
-            className="brand-logo"
-          />
-          <Image
-            src="/assets/CRIMSON 001[1].webp"
-            alt="CRIMSON Steel Contracting"
-            width={150}
-            height={100}
-            className="brand-logo"
-          />
+          <div className="brand-card">
+            <Image
+              src="/assets/ONIX Engineering Consultancy White.webp"
+              alt="ONIX Engineering Consultancy"
+              width={220}
+              height={100}
+              className="brand-card__logo"
+            />
+          </div>
+          <div className="brand-card">
+            <Image
+              src="/assets/onix-plus-logo.png"
+              alt="ONIX PLUS"
+              width={220}
+              height={100}
+              className="brand-card__logo"
+            />
+          </div>
+          <div className="brand-card">
+            <Image
+              src="/assets/Onix Prime Logo White[1].webp"
+              alt="ONIX PRIME"
+              width={220}
+              height={100}
+              className="brand-card__logo"
+            />
+          </div>
+          <div className="brand-card">
+            <Image
+              src="/assets/onix-design-studio-logo.png"
+              alt="ONIX Design Studio"
+              width={220}
+              height={100}
+              className="brand-card__logo"
+            />
+          </div>
+          <div className="brand-card">
+            <Image
+              src="/assets/CRIMSON 001[1].webp"
+              alt="CRIMSON Steel Contracting"
+              width={220}
+              height={100}
+              className="brand-card__logo"
+            />
+          </div>
         </div>
       </header>
 
@@ -137,7 +147,7 @@ export default function Home() {
             </p>
             <a
               className="maps-link"
-              href="https://maps.google.com/?q=Mardoof+Building+Gate+B+Office+114+Dubai"
+              href="https://www.google.com/maps/place/Onix+engineering+consultancy/@25.1763494,55.2421577,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f6950cab81057:0x64e84a568d8bd8e1!8m2!3d25.1763446!4d55.2447326!16s%2Fg%2F11vytgw0z5?entry=ttu"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -161,12 +171,12 @@ export default function Home() {
           >
             <h3>Abu Dhabi Office</h3>
             <p>
-              Al Maryah District, Level 14<br />
-              Abu Dhabi Global Market, Abu Dhabi
+            Omniah Tower - Al Hisn               <br />
+            Al Markaziyah West - Abu Dhabi
             </p>
             <a
               className="maps-link"
-              href="https://maps.google.com/?q=Al+Maryah+District+Level+14+Abu+Dhabi"
+              href="https://www.google.com/maps/place/Onix+Engineering+Consultancy,+Omniah+Tower+-+Al+Hisn+-+Al+Markaziyah+West+-+Abu+Dhabi/data=!4m2!3m1!1s0x3e5e67005e94375f:0x7d1b79275c7a4b73?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI1LjQ3LjgYACCIJyqiASw5NDI2NzcyNyw5NDI3NTQwNyw5NDI5MjE5NSw5NDI4NDQ2Myw5NDIyMzI5OSw5NDIxNjQxMyw5NDI4MDU3Niw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw5NDI3NTE2OCw5NDI3OTYxOSw0NzA4NDM5Myw5NDIxMzIwMEICQUU%3D&skid=7e50d3d6-4238-4d63-931f-1bcf91152c5b&g_st=aw"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -175,11 +185,11 @@ export default function Home() {
             <div className="contact-grid">
               <div>
                 <p className="label">Phone</p>
-                <a href="tel:+97125000000">+971 2 500 0000</a>
+                <a href="tel:+971022358881">+971 02 235 8881</a>
               </div>
               <div>
                 <p className="label">Email</p>
-                <a href="mailto:info@onixgroup.ae">info@onixgroup.ae</a>
+                <a href="mailto:info.ad@onixgroup.ae">info.ad@onixgroup.ae</a>
               </div>
             </div>
           </div>
