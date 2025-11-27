@@ -47,7 +47,9 @@ body {
 }
 
 .hero__logo {
-  width: min(300px, 70%);
+  width: auto;
+  max-width: 300px;
+  height: auto;
   margin-inline: auto;
   filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.4));
 }
